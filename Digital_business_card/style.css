@@ -1,0 +1,26 @@
+body {
+    /* Option 1 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    color: #FFF;
+    background: #23252C;
+ }
+#root {
+    /* Option 1 */
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+
+    background: #23252C;
+}
+.profile-pic {
+    width: 300px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
