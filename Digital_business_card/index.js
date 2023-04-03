@@ -1,25 +1,14 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-
-// class Main extends React.Component {
-//   render() {
-//     return (
-//       <h1>My React Solo Project!</h1>
-//     );
-//   }
-// }
 function Head() {
   return (
     <div>
       <img src = "./images/Ezecheil_k.png" className="profile-pic" />
-      <div>
+      <div className="main">
         <h3>Kitwana Ezechiel</h3>
         <h4>Front-end-developer</h4>
-        <span>kitwanasheb.website</span>
-      </div>
+        <span className="small">kitwanasheb.website</span>
         <div className = "buttons">
-          <button><i className="fa fa-envelope" aria-hidden="true"></i> Email</button>
-          <button><i className="fa-brands fa-linkedin-in"></i> LinkedIn</button>
+          <button className="email"><i className="fa fa-envelope" aria-hidden="true"></i> Email</button>
+          <button className="linkedin"><i className="fa-brands fa-linkedin-in"></i> LinkedIn</button>
         </div>
         <div className="description">
           <h3>About</h3>
@@ -28,6 +17,7 @@ function Head() {
           <h3>Interets</h3>
           <p>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
         </div>
+      </div>
         <footer className="footer">
           <img src = "images/twitter.png" />
           <img src = "images/facebook.png" />
