@@ -39,7 +39,7 @@ export default function App() {
         // Password confirmation ?
         formData.password === formData.confirmPassword ?
         console.log("Successfully signed up") :
-        console.log("passwords to not match!")
+        console.log("passwords to not match!") return
         
         // Has sign up for the news letter !
         formData.okayToEmail ?
